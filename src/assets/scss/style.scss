@@ -1,0 +1,48 @@
+@import "./theme.scss";
+
+
+.el-tooltip__popper {
+    background: $deep-theme!important;
+}
+.el-dialog__wrapper {
+    display: flex;
+    .el-dialog {
+        margin: auto!important;
+        background: $sub-theme;
+        border-radius: 4px;
+        border: 1px solid #ebeef55c;
+        .el-dialog__header {
+            background: #57548e87;
+            .el-dialog__title {
+                color: #fff;
+            }
+        }
+        .el-dialog__body {
+            color: #fff;
+        }
+    }
+}
+.el-message-box__wrapper {
+    .el-message-box {
+        background: $sub-theme;
+        border: 1px solid #ebeef55c;
+        .el-message-box__content,.el-message-box__title {
+            color: #fff;
+        }
+        .el-message-box__btns {
+            .el-button {
+                padding: 7px 15px;
+            }
+        }
+    }
+}
+.el-loading-mask {
+    background: #28264291;
+    z-index: 2100;
+}
+.el-button {
+    &.el-button--primary {
+        background: #54acb2;
+        border-color: #54acb2;
+    }
+}
